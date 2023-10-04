@@ -16,6 +16,9 @@
         <property name="show_sql">true</property>
         <property name="format_sql">true</property>
 
-        <mapping class="com.example.vadim.domain.DoctorDTO"></mapping>
+        <mapping class="com.example.ClinicProject.domain.DoctorDTO"></mapping>
+        <mapping class="com.example.ClinicProject.domain.HospitalDTO"></mapping>
+        <mapping class="com.example.ClinicProject.domain.VisitorDTO"></mapping>
+        <mapping class="com.example.ClinicProject.domain.VisitorsRequest"></mapping>
     </session-factory>
 </hibernate-configuration>
